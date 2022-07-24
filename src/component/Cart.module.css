@@ -1,0 +1,25 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback {
+    position: absolute;
+    top: 60px;
+    left: -200px;
+    z-index: 10;
+    background-color: rgb(66, 66, 66);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.feedbackShow {
+    transition: all 200ms ease-in-out;
+    left: 10%
+}
+
+.feedbackHide {
+    left: -200px;
+    transition: all 200ms ease-in-out;
+}
